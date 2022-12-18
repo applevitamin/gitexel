@@ -17,3 +17,20 @@ print("last_element", nums[-1])
 print("max_nambers", max(nums))
 print("min_meaning", min(nums))
 print("summa", sum(nums))
+#Список в обратно порядке
+print("reversed_list", list(reversed(nums)))
+#Сортировка значений
+print("сортировка значений списка", list(sorted(nums)))
+#исходный список
+print("исходный список", nums)
+#Изменение значений списка, для применения вывод списка
+nums[1]="3333333"
+print("После изменений", nums)
+#Получение среза (4 элемент и последний элемент длины списка)
+print("Получение среза", nums[4: len(nums)-1])
+#Замена части эжлемента
+nums[1:-1]=["A","B"]
+print("После замены",nums)
+#Список от 5 до 10 и вывод результата
+nums=list(range(5,11))
+print("от 5 до 10", nums)
