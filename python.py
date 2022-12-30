@@ -87,14 +87,22 @@
 #Знакомство с функциями
 #Использование функций
 
-def show(txt):
-#Преобразование списка и его сортировка
-    symbs=sorted(list(txt))
-#Отображение списка
-    print(symbs)
-show("Python")
-def sqsum(n):
-    nums=[k*k for k in range(1, n+1)]
-    return sum(nums)
-m=10
-print("Сумма квадратов чисел от 1 до", str(m)+":", sqsum(m))
+# def show(txt):
+# #Преобразование списка и его сортировка
+#     symbs=sorted(list(txt))
+# #Отображение списка
+#     print(symbs)
+# show("Python")
+# def sqsum(n):
+#     nums=[k*k for k in range(1, n+1)]
+#     return sum(nums)
+# m=10
+# print("Сумма квадратов чисел от 1 до", str(m)+":", sqsum(m))
+
+#Домашнее задание: Напишите программу, в которой программа запрашивает у пользова-
+#теля день и месяц, а затем выводит сообщение о текущем дне и месяце.
+
+data=int(input("Какой сегодня день? "))
+mon=int(input("Какой сейчас месяц? "))
+year=int(input("какой сейчас год? "))
+print("Сегодня", data,mon,year)
