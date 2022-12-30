@@ -85,3 +85,16 @@
 #     print(txt, "=", eval(txt))
 
 #Знакомство с функциями
+#Использование функций
+
+def show(txt):
+#Преобразование списка и его сортировка
+    symbs=sorted(list(txt))
+#Отображение списка
+    print(symbs)
+show("Python")
+def sqsum(n):
+    nums=[k*k for k in range(1, n+1)]
+    return sum(nums)
+m=10
+print("Сумма квадратов чисел от 1 до", str(m)+":", sqsum(m))
