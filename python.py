@@ -114,4 +114,4 @@
 year=int(input('Какой сейчас год? '))
 yearsOld=int(input('Какой у Вас год рождения? '))
 n=year-yearsOld
-print(n)
+print("Вам сейчас", n,"года =)")
